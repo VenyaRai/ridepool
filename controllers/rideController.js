@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const Ride = require('../routes/Ride');
+const Ride = require('../models/Ride');
 const VehicleTypes = ['car', 'bike', 'auto'];
 
 exports.createRide=async(req,res)=>{

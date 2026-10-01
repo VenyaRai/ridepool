@@ -6,4 +6,4 @@ const RideSchema=new mongoose.Schema({
     completed:Boolean
 })
 
-module.exports=mongoose.model('Ridepool',RideSchema)
+module.exports=mongoose.model('Ride',RideSchema)
